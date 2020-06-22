@@ -67,15 +67,10 @@ td {
 }
 
 @media (max-width: 776px) {
-  .container {
-      display: none;
-  }
-
-  .mobile-alert {
-      font-family: "Poppins";
-      text-align: center;
-      font-size: 1.8em;
-      text-transform: uppercase;
-      margin-top: 5em;
-  }
+    .container {
+        width: 90%;
+    }
+    #submit {
+        width: 106%;
+    }
 }
